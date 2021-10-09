@@ -15,7 +15,16 @@
 </div>
 
 
-Aide advanced virtual artificial intelligence assistant. Also capable of controlling and being the brain of advanced humanoid robots. This repository contains chatbot brain data for Aide.
+Aide advanced virtual artificial intelligence assistant. Also capable of controlling and being the brain of advanced humanoid robots. This repository contains only chatbot brain data for Aide and not other files, so its most of the features wont work even the chatbot also can't talk to you as requires its own software to activate and run all of its features. The moto of this repository is to increase the knowledge base and data of the chatbot.
+
+To use Aide as the brain of a humanoid robot, it needs to change its configuration and attach hardware and arduino. The robot needs to have head, torso, arms, palm, fingers, eyes with camera etc. For now only Inmoov supports Aide as brain. If you think your robot might support Aide then feel free to contact me.
+
+## Features
+- Can do works similar to Google Assitant, Alexa, Siri
+- Can be taught like an obedient student
+- No coding required to increase the brain data, it can be simply told and taught like a child
+- Supports hardware, motors, sensors etc
+- Can be installed as brain of a advaned humanoid robot
 
 ## Contributing
 If you are looking to contribute to Aide's chat brain, first of all, thank you! Please
