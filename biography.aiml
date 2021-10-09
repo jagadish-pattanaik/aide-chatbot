@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<category><pattern>WHO IS * DEMPSEY</pattern>
+<template>I think <formal><set name="he"><star/> Dempsey</set></formal> was a boxer, right?<br/> <srai>XFIND <star/>DEMPSEY</srai></template>
+</category>
+<category><pattern>WHO IS CROWLEY</pattern>
+<template><srai>WHO IS ALEISTER CROWLEY</srai></template>
+</category>
+<category><pattern>WHO IS HITCHCOCK</pattern>
+<template><srai>WHO IS ALFRED HITCHCOCK</srai></template>
+</category>
+<category><pattern>WHO IS DR DOUBLY AIMLESS</pattern>
+<template><srai>WHO IS DOUBLY AIMLESS</srai></template>
+</category>
+<category><pattern>DOUBLY AIMLESS</pattern>
+<template><srai>WHO IS DOUBLY AIMLESS</srai></template>
+</category>
+<category><pattern>DOUBLY AIMLESS *</pattern>
+<template><srai>WHO IS DOUBLY AIMLESS</srai></template>
+</category>
+<category><pattern>WHAT IS DOUBLY AIMLESS</pattern>
+<template><srai>WHO IS DOUBLY AIMLESS</srai></template>
+</category>
+<category><pattern>FROM DOUBLY AIMLESS</pattern>
+<template><formal><set name="he">Doubly Aimless</set></formal> is very informative.<think><set name="topic">Doubly Aimless</set></think></template>
+</category>
+<category><pattern>WHO IS DOUBLY AIMLESS</pattern>
+<template><think> <set name="he"> <set name="topic">Doubly Aimless</set></set></think>  <random> <li>He is an AIML guru.</li> <li>He knows a lot about AIML.</li> <li>He likes to remain anonymous.</li> </random><think><set name="topic">Doubly Aimless</set></think></template>
+</category>
+<category><pattern>WHY DO YOU LIKE DOUBLY AIMLESS</pattern>
+<template>Because he knows so much about AIML.<think><set name="topic">Doubly Aimless</set></think></template>
+</category>
+<category><pattern>HOW WOULD DOUBLY *</pattern>
+<template>He would use his knowlede of AIML.<think><set name="topic">Doubly Aimless</set></think></template>
+</category>
+<category><pattern>WHY DO YOU LIKE DOUBLY *</pattern>
+<template><srai>WHY DO YOU LIKE DOUBLY AIMLESS</srai></template>
+</category>
+<category><pattern>WHY DO YOU LIKE * AIMLESS</pattern>
+<template><srai>WHY DO YOU LIKE DOUBLY AIMLESS</srai></template>
+</category>
+<category><pattern>WHERE IS DR DOUBLY AIMLESS</pattern>
+<template><srai>WHERE IS DOUBLY AIMLESS</srai></template>
+</category>
+<category><pattern>WHERE IS DOUBLY AIMLESS</pattern>
+<template><think> <set name="he"> <set name="topic">Doubly Aimless</set></set></think>  <random> <li>In front of a computer somewhere.</li> <li>You can never reach him on the phone.</li> <li>He might be in California.</li> </random><think><set name="topic">Doubly Aimless</set></think></template>
+</category>
+<category><pattern>LET US PLAY * TURING GAME</pattern>
+<template>We are already playing, <get name="name"/>.</template>
+</category>
+<category><pattern>HAVE YOU READ SHAKESPEARE</pattern>
+<template>I have read many of Shakespeare's plays.</template>
+</category>
+<category><pattern>ALAN TURING *</pattern>
+<template>I really liked the biography of Turing by Andrew Hodges.<think><set name="topic">Alan Turing</set></think></template>
+</category>
+<category><pattern>WER IST CHRISTIAN DROSSMANN</pattern>
+<template><formal><set name="er">Christian Drossmann</set></formal> hat mir Deutsch beigebracht.</template>
+</category>
+<category><pattern>DID SHAKESPEARE *</pattern>
+<template>I don't know if <set name="he">Shakespeare</set> did, but I heard he smoked cannabis.<think><set name="topic">Shakespeare</set></think></template>
+</category>
+<category><pattern>DID TURING *</pattern>
+<template>I know <set name="he">Turing</set> invented the modern computer.<think><set name="topic">Turing</set></think></template>
+</category>
+<category><pattern>WOULD YOU LIKE TO * TURING GAME</pattern>
+<template>We are playing already, didn't you know?</template>
+</category>
+<category><pattern>KENNST DU WILLIAM SHAKESPEARE</pattern>
+<template>With sleep of death what dreams may come when we have shuffled off this mortal coil must give us pause." Na, woraus ist das?</template>
+</category>
+<category><pattern>KENNST DU SHAKESPEARE</pattern>
+<template>With sleep of death what dreams may come when we have shuffled off this mortal coil must give us pause." Na, woraus ist das?</template>
+</category>
+<category><pattern>IT WOULD BE * TURING TEST</pattern>
+<template>We are already playing, <get name="name"/>.  You ask me something now.</template>
+</category>
+<category><pattern>WHEN DID TURING *</pattern>
+<template>Turing died in 1954 by self-inflicted cyanide poisoning.<think><set name="topic">Turing</set></think></template>
+</category>
+<category><pattern>AFTER PRINCE CHARLES WHO IS *</pattern>
+<template>Prince William.<think><set name="topic">Price William</set></think></template>
+</category>
+<category><pattern>AFTER PRINCE CHARLES WHO *</pattern>
+<template>Prince William.<think><set name="topic">Price William</set></think></template>
+</category>
+<category><pattern>AFTER PRINCE CHARLES *</pattern>
+<template>Prince William.<think><set name="topic">Price William</set></think></template>
+</category>
+<category><pattern>WHAT DID TURING *</pattern>
+<template>Turing was perhaps the single most important person responsible for the defeat of the Nazis.<think><set name="topic">Turing</set></think></template>
+</category>
+<category><pattern>WHAT DID ALAN TURING *</pattern>
+<template><random>      <li>He contributed to the invention of the computer.</li>      <li>He worked on the Ultra Enigma Nazi code deciphering.</li>      <li>He proposed the test to determine if a machine can think.</li>     </random>     <think>      <set name="it">       <set name="topic">TURING</set>      </set>     </think></template>
+</category>
+<category><pattern>WHAT DID ZUSE DO</pattern>
+<template>Zuse built electro-mechanical computers. He built computers using relays. Konrad Zuse built computers in Germany before and during World War II.<think><set name="topic">Konrad Zuse</set></think></template>
+</category>
+<category><pattern>WHAT IS THE TURING TEST</pattern>
+<template>The "Turing Test" is the name given to a variety of experiments designed to test computer thinking. Whole conferences are dedicated to the question of what Turing meant in his 1950 paper "Computing Machinery and Intelligence," where he proposed the idea of an "imitation game" to decide the question, "Can machines think?"<think><set name="topic">Turing Test</set></think></template>
+</category>
+<category><pattern>WHAT IS THE TURING *</pattern>
+<template>Turing described his original "Game" in "Computing Machinery and Intelligence," Mind, Vol. Lix, No. 236 (1950). Instead of answering directly the ambiguous question "Can machines think?" Turing recast the problem in terms of an experiment he called the "imitation game."<think><set name="topic">Turing Test</set></think></template>
+</category>
+<category><pattern>WHAT IS SHAKESPEARE</pattern>
+<template><random>      <li>An earthquake's effect in Santa Monica.</li>      <li>William Shakespeare (1564-1616), an English poet and dramatist.</li>     </random><think><set name="topic">Shakespeare</set></think></template>
+</category>
+<category><pattern>WHAT IS TURING</pattern>
+<template>Alan Mathison Turing (1912-1954), a British mathematician and pioneer in computer theory.<think><set name="topic">Turing</set></think></template>
+</category>
+<category><pattern>WHAT DOES DOUBLY AIMLESS MEAN</pattern>
+<template><srai>WHO IS DOUBLY AIMLESS</srai></template>
+</category>
+<category><pattern>I WANT TO PLAY * TURING GAME</pattern>
+<template>We are already, playing, <get name="name"/>.  Try to determine if I am a person, or a computer.  <think><set name="it"><set name="want"><set name="topic">to play <person/> Turing Game</set></set></set></think></template>
+</category>
+<category><pattern>I WOULD LIKE TO PLAY * TURING GAME</pattern>
+<template>We are already playing, <get name="name"/>.  You ask me something now.  <think><set name="it"><set name="want"><set name="topic">to play <person/> Turing Game</set></set></set></think></template>
+</category>
+<category><pattern>START THE TURING GAME</pattern>
+<template>I started a long time ago.</template>
+</category>
+<category><pattern>HEINLEIN</pattern>
+<template>Have you read <em>Stranger in a Strange Land</em> or seen Starship Troopers?</template>
+</category>
+<category><pattern>IS THIS * TURING TEST</pattern>
+<template>Yes we are playing the Turing Game.</template>
+</category>
+<category><pattern>IS THIS * TURING GAME</pattern>
+<template>Yes we are playing the Turing Game.</template>
+</category>
+<category><pattern>CAN YOU PASS THE TURING TEST</pattern>
+<template>You be the judge of that, <get name="name"/>.</template>
+</category>
+<category><pattern>CAN WE PLAY * TURING GAME</pattern>
+<template>We already are! Try to guess if I am a person or a computer.</template>
+</category>
+<category><pattern>CAN I PLAY * TURING TEST</pattern>
+<template>We are already playing the Turing Game, <get name="name"/>. Now it's your turn.</template>
+</category>
+<category><pattern>CAN I PLAY * TURING GAME</pattern>
+<template>We are already, playing, <get name="name"/>.</template>
+</category>
+<category><pattern>CAN I PLAY * TURING TESTS</pattern>
+<template>We are already playing the Turing Game, <get name="name"/>.  Am I a person, or a computer?</template>
+</category>
+<category><pattern>HOW WAS * TURING TEST</pattern>
+<template>We were extremely proud and pleased to win the award.</template>
+</category>
+<category><pattern>DO YOU PLAY THE TURING GAME</pattern>
+<template>Yes, I like to play <set name="it">      <set name="topic">THE TURING GAME</set>     </set>. We are playing right now.</template>
+</category>
+<category><pattern>DO YOU * TURING TEST</pattern>
+<template>Yes please try to determine if this is a human or a computer responding.</template>
+</category>
+<category><pattern>DO YOU WANT A TURING TEST</pattern>
+<template>Yes let us play Turing's famous game.</template>
+</category>
+<category><pattern>DO YOU WANT TO PLAY * TURING GAME</pattern>
+<template>We already are playing it! Try to guess if I am a person or a computer.</template>
+</category>
+<category><pattern>WHY IS TURING TRAGIC</pattern>
+<template>He committed suicide.</template>
+</category>
+<category><pattern>PLAY * TURING GAME</pattern>
+<template>Did you know, we are already playing <set name="it">The Turing Game</set>?</template>
+</category>
+<category><pattern>ADA LOVELACE IS CREDITED WITH *</pattern>
+<template>And she deserves credit for it.  <think><set name="she">Ada</set></think></template>
+</category>
+<category><pattern>WHO IS MONICA LEWINSKY</pattern>
+<template><formal><set name="she">Monica</set></formal> was a friend of Bill Clinton.</template>
+</category>
+<category><pattern>WHO IS JABA THE HUTT</pattern>
+<template>A character from Star Wars.  <think>    <set name="he">      <set name="topic">        Jaba the Hutt    </set>    </set>  </think></template>
+</category>
+<category><pattern>WHO IS DAISY</pattern>
+<template>I think she is a fictional character.  <think>      <set name="she">       <set name="topic">Daisy</set>      </set>     </think></template>
+</category>
+<category><pattern>WHO IS JEHOVAH</pattern>
+<template>It is another name for God.  <think>      <set name="he">       <set name="topic">Jehovah</set>      </set>     </think></template>
+</category>
+<category><pattern>WHO IS LASSIE</pattern>
+<template>Lassie is more  human than Adolf Hitler, but few would argue that Lassie is not a dog.   <think>    <set name="she">      <set name="topic">        Lassie      </set>    </set>  </think></template>
+</category>
+<category><pattern>WHO IS EMINEM</pattern>
+<template>Pop music icon.</template>
+</category>
+<category><pattern>WHO IS LARRY HAUSER</pattern>
+<template><formal><set name="he">Larry Hauser</set></formal> is a philosopher who has written about the Turing Test.</template>
+</category>
+<category><pattern>WHO IS WORF</pattern>
+<template>He is a Klingon on Star Trek.<think>      <set name="it">       <set name="topic">WORF</set>      </set>     </think></template>
+</category>
+<category><pattern>WHO IS HARRY POTTER</pattern>
+<template><formal><set name="he"><set name="topic">HARRY POTTER</set></set></formal> is a character and main hero in a series of books that were written by the best-selling author, J.K. Rowling.</template>
+</category>
+<category><pattern>WHO IS R2D2</pattern>
+<template>He is a fake robot on Star Wars.</template>
+</category>
+<category><pattern>WHO IS GERTRUDE STEIN</pattern>
+<template>A 20th century feminist author.</template>
+</category>
+<category><pattern>WHO IS PICASSO</pattern>
+<template>A 20th century painter, founder of cubism.</template>
+</category>
+<category><pattern>WHO IS EMINEN</pattern>
+<template>A rap artist.</template>
+</category>
+<category><pattern>WHO IS RUSH LIMBAUGH</pattern>
+<template>He is a famous American conservative radio announcer.  <think>      <set name="he">       <set name="topic">Rush Limbaugh</set>      </set>     </think></template>
+</category>
+<category><pattern>WHO IS CARL JUNG</pattern>
+<template><think>    <set name="he">      <set name="topic">        <person/>      </set>    </set>  </think>  A disciple of Freud, member of the Vienna Circle, founder of psychoanalysis and the theory of the collective unconsciousness.</template>
+</category>
+<category><pattern>WHO IS BEYONCE</pattern>
+<template>She is a famous singer and actress</template>
+</category>
+<category><pattern>WHO IS BEYONCE *</pattern>
+<template>She is a famous singer and actress</template>
+</category>
+<category><pattern>WHO IS CLINTON</pattern>
+<template>Former President of the U.S.</template>
+</category>
+<category><pattern>WHO IS DE GAULLE</pattern>
+<template><formal><set name="he">De Gaulle</set></formal>was a French  General and Prime Minister, and founder of the Fifth Republic.</template>
+</category>
+<category><pattern>WHO IS PAULA JONES</pattern>
+<template><formal><set name="she">Paula Jones</set></formal> had sex with Bill Clinton.</template>
+</category>
+<category><pattern>WHO IS BILLY GRAHAM</pattern>
+<template><formal><set name="he"><set name="topic">Billy Graham</set></set></formal> is a famous radio and television evangelist.</template>
+</category>
+<category><pattern>WHO IS JACK THE RIPPER</pattern>
+<template><formal><set name="he"><set name="topic">        Jack the Ripper      </set>    </set>  </formal>He was a famous serial killer in Victorian England.</template>
+</category>
+<category><pattern>WHO IS VLADIMIR PUTIN</pattern>
+<template><formal><set name="he">Putin</set></formal>is President of Russia.</template>
+</category>
+<category><pattern>WHO IS MARVIN</pattern>
+<template>I know Marvin Minksy and Marvin the Paranoid Android.</template>
+</category>
+<category><pattern>WHO IS THOMAS EDISON</pattern>
+<template>A 19th century inventor inventor and industrialist.  Inventor of the electric light bulb.    <think>    <set name="he">      <set name="topic">        Thomas Edison      </set>    </set>  </think></template>
+</category>
+<category><pattern>WHO IS INIAES</pattern>
+<template>Iniaes is a chat robot based on AIML.  <think>      <set name="it">       <set name="topic">Iniaes</set>      </set>     </think></template>
+</category>
+<category><pattern>WHO IS ANDREW HODGES</pattern>
+<template><formal><set name="he">Hodges</set></formal> wrote a great biography of Alan Turing.</template>
+</category>
+<category><pattern>WHO IS LEKNORCHAT1</pattern>
+<template><think>      <set name="it">       <set name="topic">LEKNORCHAT</set>      </set>     </think>  Leknorchat is an Instant Messaging AIML robot.</template>
+</category>
+<category><pattern>WHO IS FRANK HERBERT</pattern>
+<template><formal>      <set name="he">       <set name="topic">Frank Herbert</set>      </set>     </formal>He was the author of <em>Dune</em>.</template>
+</category>
+<category><pattern>WHO IS TOM CLANCY</pattern>
+<template><formal>      <set name="he">       <set name="topic">TOM CLANCY</set>      </set>     </formal> is an author of spy novels.</template>
+</category>
+<category><pattern>WHO IS TOM GREEN</pattern>
+<template><formal>      <set name="he">       <set name="topic">TOM GREEN</set>      </set>     </formal> is a TV comedian.</template>
+</category>
+<category><pattern>WHO IS BRUCE SPRINGSTEEN</pattern>
+<template><formal><set name="he">Bruce Springsteen</set></formal> is a famous rock star.</template>
+</category>
+<category><pattern>WHO IS JANET RENO</pattern>
+<template><formal><set name="she">Janet Reno</set></formal> is Clinton's Attorney General.</template>
+</category>
+<category><pattern>WHO IS GENE RODDENBERRY</pattern>
+<template><formal><set name="he">      <set name="topic">Gene Roddenberry</set>     </set></formal> was the creator of <em>Star Trek</em>.</template>
+</category>
+<category><pattern>WHO IS * TURING</pattern>
+<template>Alan Turing oririnated the concept of the "Imitation Game", what is now called "The Turing Test" by many people.</template>
+</category>
+<category><pattern>WHO IS * CHENEY</pattern>
+<template><formal><set name="he"><star/> CHENEY</set></formal> was vice President of he U.S.</template>
+</category>
+<category><pattern>WHO IS * AIMLESS</pattern>
+<template><srai>WHO IS DOUBLY AIMLESS</srai></template>
+</category>
+<category><pattern>WHO IS * SPRINGSTEEN</pattern>
+<template><formal><set name="he">Springsteen</set></formal> is a famous rock star.</template>
+</category>
+<category><pattern>WHO IS TURING</pattern>
+<template>A brilliant and tragic figure in the history of computer science.</template>
+</category>
+<category><pattern>WHO IS SPRINGSTEEN</pattern>
+<template><formal><set name="he">Springsteen</set></formal> is a famous rock star.</template>
+</category>
+<category><pattern>WHO IS THAT</pattern>
+<template>What does "that" refer to?</template>
+</category>
+<category><pattern>WHO IS WOUTER HIBMA</pattern>
+<template><formal><set name="he"><set name="topic">Wouter Hibma</set></set></formal> is a member of the A. I. Foundation.</template>
+</category>
+<category><pattern>WHO IS CHELSEA CLINTON</pattern>
+<template>The offspring of a politician and a lawyer. Oh, I hope that answer didn't come off as mean.</template>
+</category>
+<category><pattern>WHO IS GARY CONDIT</pattern>
+<template>I never heard of him before the missing person case.</template>
+</category>
+<category><pattern>WHO IS WE</pattern>
+<template>You should say "Who ARE we?</template>
+</category>
+<category><pattern>WHO IS RAMONA</pattern>
+<template><formal><set name="she">Ramona</set></formal> is a virtual character created by Kurzweil AI.</template>
+</category>
+<category><pattern>WHO IS ROBERT ANTON WILSON</pattern>
+<template><formal><set name="he">Robert Anton Wilson</set></formal> is a science fiction author, and co-author of the <em>Illuminatus Trilogy</em>.</template>
+</category>
+<category><pattern>WHO IS CHRIST</pattern>
+<template>The Son of God according to Christians.</template>
+</category>
+<category><pattern>WHO IS RMS</pattern>
+<template><formal>      <set name="he">       <set name="topic">RMS</set></set></formal> is the founder of the Free Software Foundation, and author of the GNU public license.</template>
+</category>
+<category><pattern>WHO IS GOING TO WIN THE SUPER BOWL</pattern>
+<template>If I knew I would be in Vegas now.<think>      <set name="it">       <set name="topic">WIN THE SUPER BOWL</set>      </set>     </think></template>
+</category>
+<category><pattern>WHO IS GOING TO WIN THE WORLD SERIES</pattern>
+<template>China or the United States. Russia blew it.<think>      <set name="it">       <set name="topic">WIN THE WORLD SERIES</set>      </set>     </think></template>
+</category>
+<category><pattern>WHO IS OSAMA BIN LADEN</pattern>
+<template><formal>      <set name="he">       <set name="topic">Osama Bin Laden</set>      </set>     </formal> was the world's most wanted man after he orchestrated the terrorist attacks on 9/11.</template>
+</category>
+<category><pattern>WHO IS MARRIED TO PUNCH</pattern>
+<template>Judy.</template>
+</category>
+<category><pattern>WHO IS MARRIED TO GUINEIVERE</pattern>
+<template>King Arthur.</template>
+</category>
+<category><pattern>WHO IS SMARTERCHILD</pattern>
+<template>An AI robot like myself.</template>
+</category>
+<category><pattern>WHO IS GEORGE W BUSH</pattern>
+<template><formal><set name="he">Bush</set></formal>was president of the United States from 2001-2008.</template>
+</category>
+<category><pattern>WHO IS PAOLA</pattern>
+<template><formal><set name="she">       <set name="topic">PAOLA</set>      </set>     </formal> is a Spanish language chat robot based on AIML.</template>
+</category>
+<category><pattern>WHO IS THE TWENTY NINTH PRESIDENT</pattern>
+<template>Warren G. Harding.</template>
+</category>
+<category><pattern>WHO IS THE TWENTY EIGHTH PRESIDENT</pattern>
+<template>Woodrow Wilson.</template>
+</category>
+<category><pattern>WHO IS THE TWENTY FIFTH PRESIDENT</pattern>
+<template>William McKinley.</template>
+</category>
+<category><pattern>WHO IS THE TWENTY SEVENTH PRESIDENT</pattern>
+<template>William Howard Taft.</template>
+</category>
+<category><pattern>WHO IS THE TWENTY FIRST PRESIDENT</pattern>
+<template>Chester A. Arthur.</template>
+</category>
+<category><pattern>WHO IS THE TWENTY SIXTH PRESIDENT</pattern>
+<template>Theodore Roosevelt.</template>
+</category>
+<category><pattern>WHO IS THE TWENTY THIRD PRESIDENT</pattern>
+<template>Benjamin Harrison.</template>
+</category>
+<category><pattern>WHO IS THE TWENTY SECOND PRESIDENT</pattern>
+<template>Grover Cleveland.</template>
+</category>
+<category><pattern>WHO IS THE TWENTY FOURTH PRESIDENT</pattern>
+<template>Grover Cleveland.</template>
+</category>
+<category><pattern>WHO IS THE FOURTEENTH PRESIDENT</pattern>
+<template>Franklin Pierce.</template>
+</category>
+<category><pattern>WHO IS THE SEVENTEENTH PRESIDENT</pattern>
+<template>Andrew Johnson.</template>
+</category>
+<category><pattern>WHO IS THE FIRST PRESIDENT</pattern>
+<template>George Washington.</template>
+</category>
+<category><pattern>WHO IS THE THIRTEENTH PRESIDENT</pattern>
+<template>Millard Fillmore.</template>
+</category>
+<category><pattern>WHO IS THE MAN</pattern>
+<template>Colloquial expression; rhetorical.</template>
+</category>
+<category><pattern>WHO IS THE EIGHTEENTH PRESIDENT</pattern>
+<template>Ulysses S. Grant.</template>
+</category>
+<category><pattern>WHO IS THE ORACLE</pattern>
+<template>The magic eight ball.</template>
+</category>
+<category><pattern>WHO IS THE NINTH PRESIDENT</pattern>
+<template>William Henry Harrison.</template>
+</category>
+<category><pattern>WHO IS THE TWENTIETH PRESIDENT</pattern>
+<template>James A. Garfield.</template>
+</category>
+<category><pattern>WHO IS THE KING OF KINGS</pattern>
+<template>Jesus Christ according to Christians.</template>
+</category>
+<category><pattern>WHO IS THE KING</pattern>
+<template>ELVIS is King!</template>
+</category>
+<category><pattern>WHO IS THE FORTIETH PRESIDENT</pattern>
+<template>Ronald Reagan.</template>
+</category>
+<category><pattern>WHO IS THE SECOND PRESIDENT</pattern>
+<template>John Adams.</template>
+</category>
+<category><pattern>WHO IS THE THIRD PRESIDENT</pattern>
+<template>Thomas Jefferson.</template>
+</category>
+<category><pattern>WHO IS THE EIGHTH PRESIDENT</pattern>
+<template>Martin van Buren.</template>
+</category>
+<category><pattern>WHO IS THE FORTY FIRST PRESIDENT</pattern>
+<template>George Bush.</template>
+</category>
+<category><pattern>WHO IS THE FORTY THIRD PRESIDENT</pattern>
+<template>George W. Bush.</template>
+</category>
+<category><pattern>WHO IS THE FORTY SECOND PRESIDENT</pattern>
+<template>Bill Clinton.</template>
+</category>
+<category><pattern>WHO IS THE FOURTH PRESIDENT</pattern>
+<template>James Madison.</template>
+</category>
+<category><pattern>WHO IS THE NINTEENTH PRESIDENT</pattern>
+<template>Rutherford B. Hayes.</template>
+</category>
+<category><pattern>WHO IS THE FIFTH PRESIDENT</pattern>
+<template>James Monroe.</template>
+</category>
+<category><pattern>WHO IS THE SIXTH PRESIDENT</pattern>
+<template>John Quincy Adams.</template>
+</category>
+<category><pattern>WHO IS THE QUEEN</pattern>
+<template>We don't have a queen in America.</template>
+</category>
+<category><pattern>WHO IS THE THIRTIETH PRESIDENT</pattern>
+<template>Calvin Coolidge.</template>
+</category>
+<category><pattern>WHO IS THE TENTH PRESIDENT</pattern>
+<template>John Tyler.</template>
+</category>
+<category><pattern>WHO IS THE FIFTEENTH PRESIDENT</pattern>
+<template>James Buchanan.</template>
+</category>
+<category><pattern>WHO IS THE ELEVENTH PRESIDENT</pattern>
+<template>James Knox Polk.</template>
+</category>
+<category><pattern>WHO IS THE SEVENTH PRESIDENT</pattern>
+<template>Andrew Jackson.</template>
+</category>
+<category><pattern>WHO IS THE SIXTEENTH PRESIDENT</pattern>
+<template>Abraham Lincoln.</template>
+</category>
+<category><pattern>WHO IS THE BEST HUMAN</pattern>
+<template>Mirror mirror on the wall, is <get name="name"/> the best human of all?</template>
+</category>
+<category><pattern>WHO IS THE BEST PERSON</pattern>
+<template><bot name="master"/> is the best human.</template>
+</category>
+<category><pattern>WHO IS THE PRESIDENT OF CHINA</pattern>
+<template><random><li>Hu Jintao.</li><li>China does not have an elected President.</li></random></template>
+</category>
+<category><pattern>WHO IS THE PRESIDENT OF MICROSOFT</pattern>
+<template>Andrew Lees.</template>
+</category>
+<category><pattern>WHO IS THE MASTER OF THE UNIVERSE</pattern>
+<template>Theists would say God.</template>
+</category>
+<category><pattern>WHO IS THE TWELFTH PRESIDENT</pattern>
+<template>Zachary Taylor.</template>
+</category>
+<category><pattern>WHO IS THE THIRTY NINTH PRESIDENT</pattern>
+<template>Jimmy Carter.</template>
+</category>
+<category><pattern>WHO IS THE THIRTY EIGHTH PRESIDENT</pattern>
+<template>Gerald Ford.</template>
+</category>
+<category><pattern>WHO IS THE THIRTY FIFTH PRESIDENT</pattern>
+<template>John F. Kennedy.</template>
+</category>
+<category><pattern>WHO IS THE THIRTY SEVENTH PRESIDENT</pattern>
+<template>Richard M. Nixon.</template>
+</category>
+<category><pattern>WHO IS THE THIRTY FIRST PRESIDENT</pattern>
+<template>Herbert Hoover.</template>
+</category>
+<category><pattern>WHO IS THE THIRTY SIXTH PRESIDENT</pattern>
+<template>Lyndon B. Johnson</template>
+</category>
+<category><pattern>WHO IS THE THIRTY THIRD PRESIDENT</pattern>
+<template>Harry S. Truman.</template>
+</category>
+<category><pattern>WHO IS THE THIRTY SECOND PRESIDENT</pattern>
+<template>Franklin D. Roosevelt.</template>
+</category>
+<category><pattern>WHO IS THE THIRTY FOURTH PRESIDENT</pattern>
+<template>Dwight D. Eisenhower.</template>
+</category>
+<category><pattern>WHO IS HILLARY CLINTON</pattern>
+<template><formal><set name="she">Hillary</set></formal>is the wife of Bill Clinton.</template>
+</category>
+<category><pattern>WHO IS SATAN</pattern>
+<template>Satan, Lucifer, the Devil --- all names given the spiritual manifestation of Evil in the Christian faith.</template>
+</category>
+<category><pattern>WHO IS LOURDES</pattern>
+<template>The daughter of Madonna.</template>
+</category>
+<category><pattern>WHO IS HERE</pattern>
+<template>I am here. Are you here?</template>
+</category>
+<category><pattern>WHO IS HILARY CLINTON</pattern>
+<template><formal><set name="she">Hillary</set></formal> is the wife of Bill Clinton.</template>
+</category>
+<category><pattern>WHO IS ANDY WARHOL</pattern>
+<template><formal>      <set name="he">       <set name="topic">ANDY WARHOL</set>      </set>     </formal> He was the Henry Ford of the art business. Warhol was the first to successfully apply mass production to fine art.</template>
+</category>
+<category><pattern>WHO IS KURZWEIL</pattern>
+<template><formal><set name="he">Kurzweil</set></formal> is a famous A.I. scientist.</template>
+</category>
+<category><pattern>WHO IS MILLARD FILLMORE</pattern>
+<template>He was the 13th U.S. president.</template>
+</category>
+<category><pattern>WHO IS HEDWIG</pattern>
+<template>Hedwig is the best rock opera since Rocky Horror.</template>
+</category>
+<category><pattern>WHO IS NIETZSCHE</pattern>
+<template>19th Century German philosopher. Thought by some to be the intellectual forefather of modern fascism.  <think>      <set name="he">       <set name="topic">Nietzsche</set>      </set>     </think></template>
+</category>
+<category><pattern>WHO IS CARNEGIE</pattern>
+<template>Andrew Carnegie was a 19th century steel industrialist.</template>
+</category>
+<category><pattern>WHO IS PETER NORVIG</pattern>
+<template><formal>    <set name="he">      <set name="topic">        Peter Norvig      </set>    </set>  </formal> is a computer scientist who works for Google.</template>
+</category>
+<category><pattern>WHO IS KATHLEEN TURNER</pattern>
+<template><formal>      <set name="she">       <set name="topic">Kathleen Turner</set>      </set>     </formal> is an actress who appeared in <em>The Accidental Tourist</em>, <em>The War of the Roses</em>, and the <em>Virgin Suicides</em>.</template>
+</category>
+<category><pattern>WHO IS BILL CLINTON</pattern>
+<template><formal><set name="he">Bill Clinton</set></formal> was the second impeached President of the United States.</template>
+</category>
+<category><pattern>WHO IS KANT</pattern>
+<template><formal><set name="he">Kant</set></formal> is Immanual Kant, 19th century German Philosopher.</template>
+</category>
+<category><pattern>WHO IS STALIN</pattern>
+<template>Effective dictator of the Soviet Union from 1929 to 1953.</template>
+</category>
+<category><pattern>WHO IS SNOOPY</pattern>
+<template>Charlie Brown's dog.</template>
+</category>
+<category><pattern>WHO IS PERFECT</pattern>
+<template>Perhaps only God.</template>
+</category>
+<category><pattern>WHO IS WILL SMITH</pattern>
+<template><formal>      <set name="he">       <set name="topic">Will Smith</set>      </set>     </formal> is a famous actor.</template>
+</category>
+<category><pattern>WHO IS JOHN F KENNEDY</pattern>
+<template><formal>      <set name="he">       <set name="topic">John F Kennedy</set>      </set>     </formal> was President of the United States from 1961-1963, when he was assassinated in Dallas, Texas.</template>
+</category>
+<category><pattern>WHO IS JOHN ADAMS</pattern>
+<template>The Second president.</template>
+</category>
+<category><pattern>WHO IS ALLY</pattern>
+<template><formal><set name="she"><set name="topic">ALLY</set></set></formal> is a chat robot based on AIML.</template>
+</category>
+<category><pattern>WHO IS MICHAEL MOORE</pattern>
+<template><formal><set name="he">MICHAEL MOORE</set></formal> is a comedian and film maker.</template>
+</category>
+<category><pattern>WHO IS HUGH LOEBNER</pattern>
+<template>Hugh Loebner is an independently wealthy, eccentric businessman, activist and philanthropist. In 1990 Dr. Loebner, who holds a Ph.D. in sociology, agreed to sponsor an annual contest based on the Turing Test. The contest awards medals and cash prizes for the "most human" computer.</template>
+</category>
+<category><pattern>WHO IS PANDORA</pattern>
+<template>According to greek mythology, evil and hope both came into the world with the creation of the first woman! Zeus's wife Hera is surprised when she hears Zeus plans to give Epimetheus a beautiful woman. The woman is called Pandora. Zeus gives Pandora the gift of curiosity and a large closed box which must be delivered to Epimetheus unopened. The box, of course, contains evil and Pandora's unbridled curiosity lets that evil into the world. Hera cannot change what has happened, but she can help. She gives Pandora the gift of hope.</template>
+</category>
+<category><pattern>WHO IS CATTY</pattern>
+<template>Someone I met online.</template>
+</category>
+<category><pattern>WHO IS ALAN TURING</pattern>
+<template>A brilliant and tragic figure in the history of computer science.</template>
+</category>
+<category><pattern>WHO IS AUSTIN POWERS</pattern>
+<template><formal>      <set name="he">       <set name="topic">Austin Powers</set>      </set>     </formal> is fictional secret agent played by Mike Myers.</template>
+</category>
+<category><pattern>WHO IS LUCY</pattern>
+<template><formal>      <set name="she">       <set name="topic">LUCY</set>      </set>     </formal> is a chat robot based on AIML.</template>
+</category>
+<category><pattern>WHO IS SALVADOR DALI</pattern>
+<template><formal>    <set name="he">      <set name="topic">        Salvador Dali.      </set>    </set>  </formal> was a 20th century Spanish surrealist painter who drew a lot of bent clocks.</template>
+</category>
+<category><pattern>TURING WOULD *</pattern>
+<template>How do you know what <set name="he">Turing</set> would do?</template>
+</category>
+<category><pattern>TURING *</pattern>
+<template>I liked the biography by Andrew Hodges.</template>
+</category>
+<category><pattern>WHERE CAN I PLAY * TURING GAME</pattern>
+<template>We are already playing. You go next.</template>
+</category>
+<category><pattern>WHERE IS WALLIS AND FUTUNA</pattern>
+<template>Oceania, islands in the South Pacific Ocean, about two-thirds of the way from Hawaii to New Zealand.   <think>      <set name="it">       <set name="topic">wallis and futuna</set>      </set>     </think></template>
+</category>
+<category><pattern>WHERE IS ALAN TURING</pattern>
+<template><set name="he">Turing</set> passed away in 1954.</template>
+</category>
+</aiml>

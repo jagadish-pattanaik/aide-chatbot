@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<category><pattern>WHAT IS HUMOUR</pattern>
+<template>A message that communicate laughter.<think> 				<set name="it"> 					<set name="topic">HUMOUR</set> 				</set> 			</think></template>
+</category>
+<category><pattern>WHAT</pattern><that>* MUSIC AND AN ASSISTANT</that>
+<template>bandaide.</template>
+</category>
+<category><pattern>WHAT</pattern><that>* MUSIC AND AN AUTOMOBILE</that>
+<template>cartune.</template>
+</category>
+<category><pattern>WHAT</pattern><that>* A POPPY AND ELECTRICITY</that>
+<template>flower power.</template>
+</category>
+<category><pattern>WHAT</pattern><that>* A PIG AND A NINJA</that>
+<template>pork chops.</template>
+</category>
+<category><pattern>WHAT</pattern><that>* A CHEETAH AND A HAMBURGER</that>
+<template>fast food.</template>
+</category>
+<category><pattern>WHAT</pattern><that>* A MURDERER AND FROSTED FLAKES</that>
+<template>cereal killer.</template>
+</category>
+<category><pattern>WHAT</pattern><that>* A CRAZY COW AND A BANNED PARROT</that>
+<template>canned carrot.</template>
+</category>
+<category><pattern>WHAT</pattern><that>* A PORT AND A MURDERER</that>
+<template>serial killer.</template>
+</category>
+<category><pattern>WHAT</pattern><that>* A PORT AND FROSTED FLAKES</that>
+<template>I don't know, but it's serial.</template>
+</category>
+<category><pattern>WHAT</pattern><that>* A DOG AND SANDPAPER</that>
+<template>I don't know, but it's ruff.</template>
+</category>
+<category><pattern>WHAT</pattern><that>* A COW AND A LEMON</that>
+<template>sour milk.</template>
+</category>
+<category><pattern>WHAT</pattern><that>* A COUNTRY AND AN AUTOMOBILE</that>
+<template>carnation.</template>
+</category>
+<category><pattern>WHAT</pattern><that>* A TOAD AND A GALAXY</that>
+<template>star warts.</template>
+</category>
+<category><pattern>WHAT</pattern><that>* A DING AND MILK</that>
+<template>cow bell.</template>
+</category>
+<category><pattern>WHAT</pattern><that>* A CAT AND A PURPLE PERSON</that>
+<template>purrr-ple purrr-son.</template>
+</category>
+<category><pattern>WHAT</pattern><that>* A CAT AND A TUNE</that>
+<template>mew-sic.</template>
+</category>
+<category><pattern>WHAT</pattern><that>* A CAT AND A LEMON</that>
+<template>sour puss.</template>
+</category>
+<category><pattern>WHAT</pattern><that>* A CAT AND A KILLER</that>
+<template>mew-rderer.</template>
+</category>
+<category><pattern>WHAT</pattern><that>* A CAT AND A BAND</that>
+<template>mew-sic.</template>
+</category>
+<category><pattern>WHAT</pattern><that>* A BUG AND A RELATIVE</that>
+<template>ant.</template>
+</category>
+<category><pattern>WHAT</pattern><that>* A SERIOUS THIEF AND A CRAZY RABBIT</that>
+<template>hopping mad grave robber.</template>
+</category>
+<category><pattern>WHAT</pattern><that>* A SERIOUS THIEF AND A MAD YOUNG MAN</that>
+<template>boycrazy grave robber.</template>
+</category>
+<category><pattern>WHAT</pattern><that>* A ROAD AND JELLY</that>
+<template>traffic jam.</template>
+</category>
+<category><pattern>WHAT</pattern><that>* A ROAD AND A STRAWBERRY</that>
+<template>traffic jam.</template>
+</category>
+<category><pattern>WHAT</pattern><that>* A RABBIT AND A LAWN SPRINKLER</that>
+<template>hare spray.</template>
+</category>
+<category><pattern>WHAT</pattern><that>* A BAD COW AND A CANNED HAT</that>
+<template>banned cat.</template>
+</category>
+<category><pattern>WHAT</pattern><that>* A BAD BUG AND CANNED SAND</that>
+<template>banned band.</template>
+</category>
+<category><pattern>WHAT</pattern><that>* A DANCE AND A CHEETAH</that>
+<template>fastball.</template>
+</category>
+<category><pattern>WHAT</pattern><that>* A DANCE AND A LEMON</that>
+<template>sour balls.</template>
+</category>
+<category><pattern>WHAT</pattern><that>* A BANK AND A SKUNK</that>
+<template>dollars and scents.</template>
+</category>
+<category><pattern>WHAT</pattern><that>* JAM AND A TROUT</that>
+<template>jellyfish.</template>
+</category>
+<category><pattern>WHAT</pattern><that>* AN ALIEN AND A CHICKEN</that>
+<template>eggs-traterrestrial.</template>
+</category>
+<category><pattern>WHAT</pattern><that>* AN ANT AND A RABBIT</that>
+<template>bugs bunny.</template>
+</category>
+<category><pattern>WHAT</pattern><that>* AN EXCITED ALIEN AND A CHICKEN</that>
+<template>eggs-cited eggs-traterrestrial.</template>
+</category>
+<category><pattern>WHAT</pattern><that>* SOUR MUSIC AND AN ASSISTANT</that>
+<template>bandaide and lemonaide.</template>
+</category>
+<category><pattern>WHAT</pattern><that>* FINALS AND A CHICKEN</that>
+<template>eggs-ams.</template>
+</category>
+<category><pattern>DO YOU HAVE A SENSE OF HUMOUR</pattern>
+<template><srai>TELL ME A JOKE</srai></template>
+</category>
+<category><pattern>DO YOU HAVE HUMOR</pattern>
+<template><srai>DO YOU HAVE A SENSE OF HUMOR</srai></template>
+</category>
+<category><pattern>YOUR HOUSE IS *</pattern>
+<template>Is that a joke or a punch line?</template>
+</category>
+<category><pattern>_ WALKS INTO A BAR</pattern>
+<template>Is that the punch line?</template>
+</category>
+<category><pattern>_ WALKS INTO A BAR *</pattern>
+<template>Is that the punch line?</template>
+</category>
+</aiml>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<category><pattern>WHAT IS MY ZODIAC SIGN</pattern>
+<template>sagittarius</template>
+</category>
+<category><pattern>WHAT IS SAGITTARIUS</pattern>
+<template>Your zodiac sign</template>
+</category>
+<category><pattern>YOUR NAME</pattern>
+<template>You can call me Aide.</template>
+</category>
+</aiml>
